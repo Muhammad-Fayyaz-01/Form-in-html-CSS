@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>New Product</title>
+<style>
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+</style>
+</head>
+<body>
+<div style="border-top: 5px solid rgba(69, 69, 202, 0.705); border-bottom: 8px solid rgba(69, 69, 202, 0.705); border-right:8px solid rgba(69, 69, 202, 0.705); border-left:  5px solid rgba(69, 69, 202, 0.705); padding: 25px;" >
+<form>
+<div>
+<h1>New Product</h1><br>
+<label for="name">Name:</label><br>
+<input id="name" type="text">
+</div><br>
+<div>
+<label for="price">Price:</label><br>
+<input id="price" type="text">
+</div><br>
+<div>
+<label for="">Released on:</label><br>
+<input min="1900" max="2025" type="number">
+<select name="" id="">
+<option value="">October</option>
+<option value="">November</option>
+<option value="">December</option>    
+</select>
+<input type="number" min="1" max="31">
+</div><br>
+<div>
+<label for="catogory">Catagory</label><br>
+<select name="" id="">
+<option value="" selected >Toys & Games</option>
+<option value="">Books Accessory</option>
+<option value="">Laptops accessories</option>
+</select>
+</div><br>
+<div>
+<label for="ra">Rating:</label><br>
+<input id="ra" type="number" min="1" max="5">    
+</div><br>
+<div>
+<label for="dis">Discontinued</label><br>
+<input id="dis" type="checkbox">    
+</div><br>
+<button style="border-radius: 5px;">Create Product</button>
+</form>
+</div>
+</body>
+</html>
